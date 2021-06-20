@@ -4,7 +4,7 @@
     "displayName": "mochisann",
     "homepage": "https://github.com/mochi-sann/visual-studio-code-dracula-theme",
     "description": "Official Dracula Theme. A dark theme for many editors, shells, and more.",
-    "publisher": "dracula-theme",
+    "publisher": "mochi-dracula-theme",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
