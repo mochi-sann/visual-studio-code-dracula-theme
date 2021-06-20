@@ -1018,7 +1018,12 @@ tokenColors:
     - variable.other.constant.tsx # Fixes incorrect highlighting of pseudo-constants in tsx
     settings:
       foreground: *FG
-
+  - name: "import Color"
+    scopre:
+    - "meta.import variable.other.readwrite.alias"   # import color
+    settings:
+      fontStyle: normal
+      foreground: *YELLOW
   - name: Destructuring / aliasing reference name (LHS)
     scope:
     - meta.import variable.other.readwrite                          # Module import aliasing (real name)
@@ -1030,7 +1035,7 @@ tokenColors:
 
   - name: Destructuring / aliasing variable name (RHS)
     scope:
-    - meta.import variable.other.readwrite.alias                             # Module import aliasing (alias name)
+    # - meta.import variable.other.readwrite.alias                             # Module import aliasing (alias name)
     - meta.export variable.other.readwrite.alias                             # Module import aliasing (alias name)
     - meta.variable.assignment.destructured.object.coffee variable variable  # Object destructuring variable (coffeescript)
     settings:
