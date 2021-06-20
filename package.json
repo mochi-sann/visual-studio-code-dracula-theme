@@ -1,6 +1,6 @@
 {
-    "name": "theme-dracula",
-    "version": "2.30.3333",
+    "name": "mochi-dracula-theme",
+    "version": "1.0.0",
     "displayName": "mochisann",
     "homepage": "https://github.com/mochi-sann/visual-studio-code-dracula-theme",
     "description": "Official Dracula Theme. A dark theme for many editors, shells, and more.",
