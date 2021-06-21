@@ -51,12 +51,12 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dracula",
+                "label": "Dracula by mochi",
                 "uiTheme": "vs-dark",
                 "path": "./theme/dracula.json"
             },
             {
-                "label": "Dracula Soft",
+                "label": "Dracula Soft by mochi",
                 "uiTheme": "vs-dark",
                 "path": "./theme/dracula-soft.json"
             }
